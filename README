@@ -1,0 +1,66 @@
+Version 0.01
+--------------------
+Detailed Information
+--------------------
+
+Rictus is a simple IRC Bot written in POE.
+
+---------------------
+Documentation Roadmap
+---------------------
+
+Rictus is heavily documented and comes with example config file (bot.cfg)
+and a standard bot script (rictus). Both can be found in the examples
+directory.
+
+---------------------
+Installing Rictus-Bot
+---------------------
+
+Rictus-Bot can be installed through the CPAN or CPANPLUS shell in the usual
+manner.
+
+  % perl -MCPAN -e shell
+  cpan> install Rictus::Bot
+  
+Or
+
+  % cpan -i Rictus::Bot
+  
+------------
+Test Results
+------------
+The CPAN Testers are a group of volunteers who test new CPAN
+distributions on a number of platforms. You can see their test
+results at: http://testers.cpan.org/search?request=dist&dist=POE
+POE's ongoing improvement relies on your feedback. You file bug
+reports, feature requests, and even success stories by e-mailing
+<bug-Rictus-Bot@rt.cpan.org>.
+
+-------------
+Test Coverage
+-------------
+
+Rictus-Bot comes with no test but requires that you have the following installed.
+Config-Simple
+POE
+POE-Component-IRC
+
+----------------
+Full Change Logs
+----------------
+Thanks to the magic of distributed version control, Rictus-bot is hosted at
+Github You can browse the source at:
+
+https://github.com/TwistedDevelopment/POE-Bot
+
+Complete change logs can also be browsed at thise site. it does
+provide RSS news feeds for those who want to follow development in
+near-realtime.
+
+----
+Bye!
+----
+Thanks for reading!
+-- 
+scott Cilley / scilley@cpan.org / http://www.twedev.com/

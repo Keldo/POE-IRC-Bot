@@ -1,0 +1,66 @@
+=head1 NAME
+
+
+Rictus::Bot - IRC Bot written in POE
+
+=head1 SYNOPSIS
+
+
+  Use this bot to keep your channel open, serve as a helpful assistant 
+  
+  if you are running your own server or as a base to learn how to write POE bots for IRC.
+
+=head1 DESCRIPTION
+
+
+This bot is still a work in progress and will be updated frequenty after test are complete.
+
+To use this bot
+
+perl Makefile.PL
+
+make
+
+make install
+
+Edit bot.cfg
+
+Nick
+
+Server
+
+Password (If you have registered the bot's nick)
+
+chown +x rictus
+
+then launch the bot
+
+./rictus
+
+=head1 SEE ALSO
+
+
+POE
+
+POE::Component::IRC
+
+Config::Simple
+
+DateTime
+
+www.twedev.com
+
+=head1 AUTHOR
+
+Scott Cilley <scilley@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright (C) 2014 by Scott Cilley
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.16.3 or,
+at your option, any later version of Perl 5 you may have available.
+
+
+=cut

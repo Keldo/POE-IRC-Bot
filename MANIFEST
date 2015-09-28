@@ -1,0 +1,12 @@
+MANIFEST
+Makefile
+Makefile.PL
+MYMETA.json
+MYMETA.yml
+example/rictus
+example/bot.cfg
+lib/POE/Component/IRC/Plugin/Rictus.pm
+lib/POE/Component/IRC/Plugin/IRCDHelp.pm
+TODO
+CHANGES
+README

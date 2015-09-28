@@ -1,0 +1,12 @@
+Revision history for Perl extension Rictus::Bot.
+
+0.01 R13 Sat 21 22:00:00 2014
+	- Templated RSS URI in the Configuration
+
+0.01 R12 Sat Jun 21 21:23:00 2014
+	- Added RSS Reader functionality
+
+0.01 R11  Sun Apr 28 00:58:00 2013
+	- original version; created by h2xs 1.23 with options
+		-Xan Rictus::Bot
+
